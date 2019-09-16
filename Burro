@@ -1,0 +1,13 @@
+
+package tallerpolimorfismo;
+
+
+public class Burro implements PuedeCantar{
+
+    @Override
+    public void cantar() {
+
+        System.out.println("IIHH OOOH IIIH OOOH IIHH OHHH");
+    }
+    
+}
